@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS MULTICOLOR WEBSITE</title>
+    <style>
+        :root{
+            --primary-color: rgb(178, 12, 208);
+            --text-color: white;
+            --secondary-color: purple;
+        }
+         /* :root{
+            --primary-color: rgb(12, 16, 237);
+            --text-color: white;
+            --secondary-color: rgb(5, 102, 248);
+        } */
+        body{
+            background-color: var(--secondary-color);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            padding: 12px 0;
+        }
+
+        ul li {
+            list-style: none;
+        }
+
+        ul li {
+            display: inline;
+            padding: 23px;
+            font-weight: 400;
+            color: var(--text-color);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="/">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
